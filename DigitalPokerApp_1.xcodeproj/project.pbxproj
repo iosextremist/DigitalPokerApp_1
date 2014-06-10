@@ -112,11 +112,9 @@
 		259C57331946D2A600958B94 /* DigitalPokerApp_1 */ = {
 			isa = PBXGroup;
 			children = (
-				259C573C1946D2A600958B94 /* AppDelegate.h */,
-				259C573D1946D2A600958B94 /* AppDelegate.m */,
-				259C573F1946D2A600958B94 /* Main.storyboard */,
-				259C57421946D2A700958B94 /* ViewController.h */,
-				259C57431946D2A700958B94 /* ViewController.m */,
+				259C57621946D3A600958B94 /* App Delegates */,
+				259C57641946D3E400958B94 /* Storyboard Files */,
+				259C57631946D3B800958B94 /* View Controllers */,
 				259C57451946D2A700958B94 /* Images.xcassets */,
 				259C57341946D2A600958B94 /* Supporting Files */,
 			);
@@ -150,6 +148,32 @@
 				259C57551946D2A700958B94 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		259C57621946D3A600958B94 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				259C573C1946D2A600958B94 /* AppDelegate.h */,
+				259C573D1946D2A600958B94 /* AppDelegate.m */,
+			);
+			name = "App Delegates";
+			sourceTree = "<group>";
+		};
+		259C57631946D3B800958B94 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				259C57421946D2A700958B94 /* ViewController.h */,
+				259C57431946D2A700958B94 /* ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		259C57641946D3E400958B94 /* Storyboard Files */ = {
+			isa = PBXGroup;
+			children = (
+				259C573F1946D2A600958B94 /* Main.storyboard */,
+			);
+			name = "Storyboard Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
