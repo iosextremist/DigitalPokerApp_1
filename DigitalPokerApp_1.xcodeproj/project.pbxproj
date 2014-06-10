@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255D15151947C9CB000F0214 /* ExitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 255D15131947C9CB000F0214 /* ExitButton.png */; };
+		255D15161947C9CB000F0214 /* ExitButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 255D15141947C9CB000F0214 /* ExitButton@2x.png */; };
 		259C572E1946D2A600958B94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C572D1946D2A600958B94 /* Foundation.framework */; };
 		259C57301946D2A600958B94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C572F1946D2A600958B94 /* CoreGraphics.framework */; };
 		259C57321946D2A600958B94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C57311946D2A600958B94 /* UIKit.framework */; };
 		259C57381946D2A600958B94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 259C57361946D2A600958B94 /* InfoPlist.strings */; };
 		259C573A1946D2A600958B94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C57391946D2A600958B94 /* main.m */; };
 		259C573E1946D2A600958B94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C573D1946D2A600958B94 /* AppDelegate.m */; };
-		259C57411946D2A600958B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259C573F1946D2A600958B94 /* Main.storyboard */; };
-		259C57441946D2A700958B94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C57431946D2A700958B94 /* ViewController.m */; };
 		259C57461946D2A700958B94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259C57451946D2A700958B94 /* Images.xcassets */; };
 		259C574D1946D2A700958B94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C574C1946D2A700958B94 /* XCTest.framework */; };
 		259C574E1946D2A700958B94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C572D1946D2A600958B94 /* Foundation.framework */; };
 		259C574F1946D2A700958B94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C57311946D2A600958B94 /* UIKit.framework */; };
 		259C57571946D2A700958B94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 259C57551946D2A700958B94 /* InfoPlist.strings */; };
 		259C57591946D2A700958B94 /* DigitalPokerApp_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C57581946D2A700958B94 /* DigitalPokerApp_1Tests.m */; };
+		259C57681946F61300958B94 /* Felt.png in Resources */ = {isa = PBXBuildFile; fileRef = 259C57661946F61300958B94 /* Felt.png */; };
+		259C57691946F61300958B94 /* Felt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259C57671946F61300958B94 /* Felt@2x.png */; };
+		259C576D1946F6EA00958B94 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C576B1946F6EA00958B94 /* MainViewController.m */; };
+		259C576E1946F6EA00958B94 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259C576C1946F6EA00958B94 /* MainViewController.xib */; };
+		259C57721947BC7900958B94 /* HostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C57701947BC7900958B94 /* HostViewController.m */; };
+		259C57731947BC7900958B94 /* HostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 259C57711947BC7900958B94 /* HostViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		255D15131947C9CB000F0214 /* ExitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExitButton.png; sourceTree = "<group>"; };
+		255D15141947C9CB000F0214 /* ExitButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ExitButton@2x.png"; sourceTree = "<group>"; };
 		259C572A1946D2A600958B94 /* DigitalPokerApp_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalPokerApp_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		259C572D1946D2A600958B94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		259C572F1946D2A600958B94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +52,20 @@
 		259C573B1946D2A600958B94 /* DigitalPokerApp_1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitalPokerApp_1-Prefix.pch"; sourceTree = "<group>"; };
 		259C573C1946D2A600958B94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		259C573D1946D2A600958B94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		259C57401946D2A600958B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		259C57421946D2A700958B94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		259C57431946D2A700958B94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		259C57451946D2A700958B94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		259C574B1946D2A700958B94 /* DigitalPokerApp_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalPokerApp_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		259C574C1946D2A700958B94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		259C57541946D2A700958B94 /* DigitalPokerApp_1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitalPokerApp_1Tests-Info.plist"; sourceTree = "<group>"; };
 		259C57561946D2A700958B94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		259C57581946D2A700958B94 /* DigitalPokerApp_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalPokerApp_1Tests.m; sourceTree = "<group>"; };
+		259C57661946F61300958B94 /* Felt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Felt.png; sourceTree = "<group>"; };
+		259C57671946F61300958B94 /* Felt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Felt@2x.png"; sourceTree = "<group>"; };
+		259C576A1946F6EA00958B94 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		259C576B1946F6EA00958B94 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		259C576C1946F6EA00958B94 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		259C576F1947BC7900958B94 /* HostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostViewController.h; sourceTree = "<group>"; };
+		259C57701947BC7900958B94 /* HostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostViewController.m; sourceTree = "<group>"; };
+		259C57711947BC7900958B94 /* HostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HostViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				259C57331946D2A600958B94 /* DigitalPokerApp_1 */,
+				259C57651946F5CA00958B94 /* Images */,
 				259C57521946D2A700958B94 /* DigitalPokerApp_1Tests */,
 				259C572C1946D2A600958B94 /* Frameworks */,
 				259C572B1946D2A600958B94 /* Products */,
@@ -113,10 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				259C57621946D3A600958B94 /* App Delegates */,
-				259C57641946D3E400958B94 /* Storyboard Files */,
+				259C57641946D3E400958B94 /* XIB Files */,
 				259C57631946D3B800958B94 /* View Controllers */,
-				259C57451946D2A700958B94 /* Images.xcassets */,
 				259C57341946D2A600958B94 /* Supporting Files */,
+				259C57451946D2A700958B94 /* Images.xcassets */,
 			);
 			path = DigitalPokerApp_1;
 			sourceTree = "<group>";
@@ -162,18 +176,33 @@
 		259C57631946D3B800958B94 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				259C57421946D2A700958B94 /* ViewController.h */,
-				259C57431946D2A700958B94 /* ViewController.m */,
+				259C576A1946F6EA00958B94 /* MainViewController.h */,
+				259C576B1946F6EA00958B94 /* MainViewController.m */,
+				259C576F1947BC7900958B94 /* HostViewController.h */,
+				259C57701947BC7900958B94 /* HostViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		259C57641946D3E400958B94 /* Storyboard Files */ = {
+		259C57641946D3E400958B94 /* XIB Files */ = {
 			isa = PBXGroup;
 			children = (
-				259C573F1946D2A600958B94 /* Main.storyboard */,
+				259C576C1946F6EA00958B94 /* MainViewController.xib */,
+				259C57711947BC7900958B94 /* HostViewController.xib */,
 			);
-			name = "Storyboard Files";
+			name = "XIB Files";
+			sourceTree = "<group>";
+		};
+		259C57651946F5CA00958B94 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				255D15131947C9CB000F0214 /* ExitButton.png */,
+				255D15141947C9CB000F0214 /* ExitButton@2x.png */,
+				259C57661946F61300958B94 /* Felt.png */,
+				259C57671946F61300958B94 /* Felt@2x.png */,
+			);
+			name = Images;
+			path = DigitalPokerApp_1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +252,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Randy Wills";
 				TargetAttributes = {
+					259C57291946D2A600958B94 = {
+						DevelopmentTeam = KP585WGD39;
+					};
 					259C574A1946D2A700958B94 = {
 						TestTargetID = 259C57291946D2A600958B94;
 					};
@@ -253,8 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				259C57461946D2A700958B94 /* Images.xcassets in Resources */,
+				255D15151947C9CB000F0214 /* ExitButton.png in Resources */,
+				259C57691946F61300958B94 /* Felt@2x.png in Resources */,
+				259C576E1946F6EA00958B94 /* MainViewController.xib in Resources */,
+				255D15161947C9CB000F0214 /* ExitButton@2x.png in Resources */,
 				259C57381946D2A600958B94 /* InfoPlist.strings in Resources */,
-				259C57411946D2A600958B94 /* Main.storyboard in Resources */,
+				259C57731947BC7900958B94 /* HostViewController.xib in Resources */,
+				259C57681946F61300958B94 /* Felt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				259C57441946D2A700958B94 /* ViewController.m in Sources */,
+				259C57721947BC7900958B94 /* HostViewController.m in Sources */,
 				259C573E1946D2A600958B94 /* AppDelegate.m in Sources */,
 				259C573A1946D2A600958B94 /* main.m in Sources */,
+				259C576D1946F6EA00958B94 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +342,6 @@
 				259C57371946D2A600958B94 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		259C573F1946D2A600958B94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				259C57401946D2A600958B94 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		259C57551946D2A700958B94 /* InfoPlist.strings */ = {
@@ -400,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DigitalPokerApp_1/DigitalPokerApp_1-Prefix.pch";
 				INFOPLIST_FILE = "DigitalPokerApp_1/DigitalPokerApp_1-Info.plist";
@@ -413,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DigitalPokerApp_1/DigitalPokerApp_1-Prefix.pch";
 				INFOPLIST_FILE = "DigitalPokerApp_1/DigitalPokerApp_1-Info.plist";
@@ -480,6 +512,7 @@
 				259C575E1946D2A700958B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		259C575F1946D2A700958B94 /* Build configuration list for PBXNativeTarget "DigitalPokerApp_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +521,7 @@
 				259C57611946D2A700958B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
