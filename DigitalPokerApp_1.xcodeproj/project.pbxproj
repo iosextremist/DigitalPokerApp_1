@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259C572E1946D2A600958B94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C572D1946D2A600958B94 /* Foundation.framework */; };
+		259C57301946D2A600958B94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C572F1946D2A600958B94 /* CoreGraphics.framework */; };
+		259C57321946D2A600958B94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C57311946D2A600958B94 /* UIKit.framework */; };
+		259C57381946D2A600958B94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 259C57361946D2A600958B94 /* InfoPlist.strings */; };
+		259C573A1946D2A600958B94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C57391946D2A600958B94 /* main.m */; };
+		259C573E1946D2A600958B94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C573D1946D2A600958B94 /* AppDelegate.m */; };
+		259C57411946D2A600958B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259C573F1946D2A600958B94 /* Main.storyboard */; };
+		259C57441946D2A700958B94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C57431946D2A700958B94 /* ViewController.m */; };
+		259C57461946D2A700958B94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259C57451946D2A700958B94 /* Images.xcassets */; };
+		259C574D1946D2A700958B94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C574C1946D2A700958B94 /* XCTest.framework */; };
+		259C574E1946D2A700958B94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C572D1946D2A600958B94 /* Foundation.framework */; };
+		259C574F1946D2A700958B94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259C57311946D2A600958B94 /* UIKit.framework */; };
+		259C57571946D2A700958B94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 259C57551946D2A700958B94 /* InfoPlist.strings */; };
+		259C57591946D2A700958B94 /* DigitalPokerApp_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259C57581946D2A700958B94 /* DigitalPokerApp_1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259C57501946D2A700958B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259C57221946D2A600958B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259C57291946D2A600958B94;
+			remoteInfo = DigitalPokerApp_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		259C572A1946D2A600958B94 /* DigitalPokerApp_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalPokerApp_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259C572D1946D2A600958B94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		259C572F1946D2A600958B94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		259C57311946D2A600958B94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		259C57351946D2A600958B94 /* DigitalPokerApp_1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitalPokerApp_1-Info.plist"; sourceTree = "<group>"; };
+		259C57371946D2A600958B94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		259C57391946D2A600958B94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		259C573B1946D2A600958B94 /* DigitalPokerApp_1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitalPokerApp_1-Prefix.pch"; sourceTree = "<group>"; };
+		259C573C1946D2A600958B94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		259C573D1946D2A600958B94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		259C57401946D2A600958B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259C57421946D2A700958B94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		259C57431946D2A700958B94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		259C57451946D2A700958B94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		259C574B1946D2A700958B94 /* DigitalPokerApp_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalPokerApp_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		259C574C1946D2A700958B94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		259C57541946D2A700958B94 /* DigitalPokerApp_1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitalPokerApp_1Tests-Info.plist"; sourceTree = "<group>"; };
+		259C57561946D2A700958B94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		259C57581946D2A700958B94 /* DigitalPokerApp_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalPokerApp_1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259C57271946D2A600958B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C57301946D2A600958B94 /* CoreGraphics.framework in Frameworks */,
+				259C57321946D2A600958B94 /* UIKit.framework in Frameworks */,
+				259C572E1946D2A600958B94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C57481946D2A700958B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C574D1946D2A700958B94 /* XCTest.framework in Frameworks */,
+				259C574F1946D2A700958B94 /* UIKit.framework in Frameworks */,
+				259C574E1946D2A700958B94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259C57211946D2A600958B94 = {
+			isa = PBXGroup;
+			children = (
+				259C57331946D2A600958B94 /* DigitalPokerApp_1 */,
+				259C57521946D2A700958B94 /* DigitalPokerApp_1Tests */,
+				259C572C1946D2A600958B94 /* Frameworks */,
+				259C572B1946D2A600958B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259C572B1946D2A600958B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259C572A1946D2A600958B94 /* DigitalPokerApp_1.app */,
+				259C574B1946D2A700958B94 /* DigitalPokerApp_1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259C572C1946D2A600958B94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259C572D1946D2A600958B94 /* Foundation.framework */,
+				259C572F1946D2A600958B94 /* CoreGraphics.framework */,
+				259C57311946D2A600958B94 /* UIKit.framework */,
+				259C574C1946D2A700958B94 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		259C57331946D2A600958B94 /* DigitalPokerApp_1 */ = {
+			isa = PBXGroup;
+			children = (
+				259C573C1946D2A600958B94 /* AppDelegate.h */,
+				259C573D1946D2A600958B94 /* AppDelegate.m */,
+				259C573F1946D2A600958B94 /* Main.storyboard */,
+				259C57421946D2A700958B94 /* ViewController.h */,
+				259C57431946D2A700958B94 /* ViewController.m */,
+				259C57451946D2A700958B94 /* Images.xcassets */,
+				259C57341946D2A600958B94 /* Supporting Files */,
+			);
+			path = DigitalPokerApp_1;
+			sourceTree = "<group>";
+		};
+		259C57341946D2A600958B94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				259C57351946D2A600958B94 /* DigitalPokerApp_1-Info.plist */,
+				259C57361946D2A600958B94 /* InfoPlist.strings */,
+				259C57391946D2A600958B94 /* main.m */,
+				259C573B1946D2A600958B94 /* DigitalPokerApp_1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		259C57521946D2A700958B94 /* DigitalPokerApp_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				259C57581946D2A700958B94 /* DigitalPokerApp_1Tests.m */,
+				259C57531946D2A700958B94 /* Supporting Files */,
+			);
+			path = DigitalPokerApp_1Tests;
+			sourceTree = "<group>";
+		};
+		259C57531946D2A700958B94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				259C57541946D2A700958B94 /* DigitalPokerApp_1Tests-Info.plist */,
+				259C57551946D2A700958B94 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259C57291946D2A600958B94 /* DigitalPokerApp_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259C575C1946D2A700958B94 /* Build configuration list for PBXNativeTarget "DigitalPokerApp_1" */;
+			buildPhases = (
+				259C57261946D2A600958B94 /* Sources */,
+				259C57271946D2A600958B94 /* Frameworks */,
+				259C57281946D2A600958B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalPokerApp_1;
+			productName = DigitalPokerApp_1;
+			productReference = 259C572A1946D2A600958B94 /* DigitalPokerApp_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259C574A1946D2A700958B94 /* DigitalPokerApp_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259C575F1946D2A700958B94 /* Build configuration list for PBXNativeTarget "DigitalPokerApp_1Tests" */;
+			buildPhases = (
+				259C57471946D2A700958B94 /* Sources */,
+				259C57481946D2A700958B94 /* Frameworks */,
+				259C57491946D2A700958B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259C57511946D2A700958B94 /* PBXTargetDependency */,
+			);
+			name = DigitalPokerApp_1Tests;
+			productName = DigitalPokerApp_1Tests;
+			productReference = 259C574B1946D2A700958B94 /* DigitalPokerApp_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259C57221946D2A600958B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Randy Wills";
+				TargetAttributes = {
+					259C574A1946D2A700958B94 = {
+						TestTargetID = 259C57291946D2A600958B94;
+					};
+				};
+			};
+			buildConfigurationList = 259C57251946D2A600958B94 /* Build configuration list for PBXProject "DigitalPokerApp_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259C57211946D2A600958B94;
+			productRefGroup = 259C572B1946D2A600958B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259C57291946D2A600958B94 /* DigitalPokerApp_1 */,
+				259C574A1946D2A700958B94 /* DigitalPokerApp_1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259C57281946D2A600958B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C57461946D2A700958B94 /* Images.xcassets in Resources */,
+				259C57381946D2A600958B94 /* InfoPlist.strings in Resources */,
+				259C57411946D2A600958B94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C57491946D2A700958B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C57571946D2A700958B94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259C57261946D2A600958B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C57441946D2A700958B94 /* ViewController.m in Sources */,
+				259C573E1946D2A600958B94 /* AppDelegate.m in Sources */,
+				259C573A1946D2A600958B94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C57471946D2A700958B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C57591946D2A700958B94 /* DigitalPokerApp_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259C57511946D2A700958B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259C57291946D2A600958B94 /* DigitalPokerApp_1 */;
+			targetProxy = 259C57501946D2A700958B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259C57361946D2A600958B94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259C57371946D2A600958B94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		259C573F1946D2A600958B94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259C57401946D2A600958B94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259C57551946D2A700958B94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259C57561946D2A700958B94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259C575A1946D2A700958B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		259C575B1946D2A700958B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259C575D1946D2A700958B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalPokerApp_1/DigitalPokerApp_1-Prefix.pch";
+				INFOPLIST_FILE = "DigitalPokerApp_1/DigitalPokerApp_1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		259C575E1946D2A700958B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalPokerApp_1/DigitalPokerApp_1-Prefix.pch";
+				INFOPLIST_FILE = "DigitalPokerApp_1/DigitalPokerApp_1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		259C57601946D2A700958B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DigitalPokerApp_1.app/DigitalPokerApp_1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalPokerApp_1/DigitalPokerApp_1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DigitalPokerApp_1Tests/DigitalPokerApp_1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		259C57611946D2A700958B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DigitalPokerApp_1.app/DigitalPokerApp_1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitalPokerApp_1/DigitalPokerApp_1-Prefix.pch";
+				INFOPLIST_FILE = "DigitalPokerApp_1Tests/DigitalPokerApp_1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259C57251946D2A600958B94 /* Build configuration list for PBXProject "DigitalPokerApp_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C575A1946D2A700958B94 /* Debug */,
+				259C575B1946D2A700958B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259C575C1946D2A700958B94 /* Build configuration list for PBXNativeTarget "DigitalPokerApp_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C575D1946D2A700958B94 /* Debug */,
+				259C575E1946D2A700958B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		259C575F1946D2A700958B94 /* Build configuration list for PBXNativeTarget "DigitalPokerApp_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C57601946D2A700958B94 /* Debug */,
+				259C57611946D2A700958B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259C57221946D2A600958B94 /* Project object */;
+}
