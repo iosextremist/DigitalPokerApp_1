@@ -92,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		255D15171947CF8C000F0214 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				259C576A1946F6EA00958B94 /* MainViewController.h */,
+				259C576B1946F6EA00958B94 /* MainViewController.m */,
+				259C576C1946F6EA00958B94 /* MainViewController.xib */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
 		259C57211946D2A600958B94 = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				259C57621946D3A600958B94 /* App Delegates */,
-				259C57641946D3E400958B94 /* XIB Files */,
 				259C57631946D3B800958B94 /* View Controllers */,
 				259C57341946D2A600958B94 /* Supporting Files */,
 				259C57451946D2A700958B94 /* Images.xcassets */,
@@ -176,21 +185,20 @@
 		259C57631946D3B800958B94 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				259C576A1946F6EA00958B94 /* MainViewController.h */,
-				259C576B1946F6EA00958B94 /* MainViewController.m */,
-				259C576F1947BC7900958B94 /* HostViewController.h */,
-				259C57701947BC7900958B94 /* HostViewController.m */,
+				255D15171947CF8C000F0214 /* Main Menu */,
+				259C57641946D3E400958B94 /* Host Game */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		259C57641946D3E400958B94 /* XIB Files */ = {
+		259C57641946D3E400958B94 /* Host Game */ = {
 			isa = PBXGroup;
 			children = (
-				259C576C1946F6EA00958B94 /* MainViewController.xib */,
+				259C576F1947BC7900958B94 /* HostViewController.h */,
+				259C57701947BC7900958B94 /* HostViewController.m */,
 				259C57711947BC7900958B94 /* HostViewController.xib */,
 			);
-			name = "XIB Files";
+			name = "Host Game";
 			sourceTree = "<group>";
 		};
 		259C57651946F5CA00958B94 /* Images */ = {

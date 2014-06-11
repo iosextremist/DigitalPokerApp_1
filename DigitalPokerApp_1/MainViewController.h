@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 Randy Wills. All rights reserved.
 //
 
+#import "HostViewController.h"
 
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <HostViewControllerDelegate>
 
 @end
